@@ -13,7 +13,7 @@ I'm ready to do my best during the challenge, coz no pain - no gain 	:blush:
 
 # TASK 2: selectors 
 
-## <h5 class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom">Scouts Panel</h5>:
+## <h5 class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom">Scouts Panel</h5>
 //h5[contains(@class,'MuiTypography-h5')]
 //h5[text()='Scouts Panel']
 //div[@id='__next'] //descendant::h5
