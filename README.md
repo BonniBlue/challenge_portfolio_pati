@@ -13,7 +13,7 @@ I'm ready to do my best during the challenge, coz no pain - no gain 	:blush:
 
 # TASK 2: selectors 
 
-## title_scouts_panel_path
+## title_scouts_panel_xpath
 //h5[contains(@class,'MuiTypography-h5')] <br />
 //h5[text()='Scouts Panel'] <br />
 //div[@id='__next'] //descendant::h5
