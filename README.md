@@ -13,36 +13,36 @@ I'm ready to do my best during the challenge, coz no pain - no gain 	:blush:
 
 # TASK 2: selectors 
 
-## '<h5 class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom">Scouts Panel</h5>'
+## title_scouts_panel_path
 //h5[contains(@class,'MuiTypography-h5')] <br />
 //h5[text()='Scouts Panel'] <br />
 //div[@id='__next'] //descendant::h5
 
-## '<input aria-invalid="false" id="login" name="login" type="text" class="MuiInputBase-input MuiInput-input" value="">'
+## login_field_xpath
 //*[@id='login'] <br />
 //input[@name='login'] <br />
 //*[@type='text' and @id='login'] <br />
 //div[@id='__next'] //descendant::input[@id='login']
 
-## '<input aria-invalid="false" id="password" name="password" type="password" class="MuiInputBase-input MuiInput-input" value="">'
+## password_field_xpath
 //*[@id='password'] <br />
 //input[@name='password'] <br />
 //*[@type='password']
 
-## '<a class="MuiTypography-root MuiLink-root MuiLink-underlineHover jss29 MuiTypography-colorPrimary" tabindex="-1">Remind password</a>'
+## button_remind_xpath
 //*[@id='__next']/form/div/div[1]/a <br />
 //*[text()="Remind password"] <br />
 //*[@id='__next']//*[text()='Remind password'] <br />
 //*[@id='__next']/descendant::a[contains(@class,'MuiLink-root')]
 
-## '<div class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiInputBase-input MuiInput-input" tabindex="0" role="button" aria-haspopup="listbox">English</div>'
+## button_language_selector_xpath
 //*[@aria-haspopup='listbox'] <br />
 //*[@id='__next']/form/div/div[2]/div/div <br />
 //*[contains(@class,'MuiInputBase-root')]/*[@aria-haspopup='listbox'] <br />
 //*[@type='submit']//preceding::div[contains(@class,'MuiSelect-select')] <br />
 //*[@id="__next"]/descendant::*[contains(@class,'MuiSelect-select')]
 
-## '<button class="MuiButtonBase-root MuiButton-root MuiButton-contained jss30 MuiButton-containedPrimary" tabindex="0" type="submit"><span class="MuiButton-label">Sign in</span><span class="MuiTouchRipple-root"></span></button>'
+## button_sign_in_xpath
 //*[@type='submit'] <br />
 //*[contains(@class,'MuiButton-root')] <br />
 //*[@type='submit' and contains(@class,'MuiButton-root')] <br />
