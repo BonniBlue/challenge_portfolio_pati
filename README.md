@@ -11,49 +11,39 @@ communicate with other like-minded people,
 challenge myself, of course, and get the opportunity to grow in IT. 
 I'm ready to do my best during the challenge, coz no pain - no gain 	:blush:
 
-# TASK 2: selectors 
+# TASK 2: selectors. 
 
-## <h5 class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom">Scouts Panel</h5>:
-//h5[contains(@class,'MuiTypography-h5')]
-//h5[text()='Scouts Panel']
+## title_scouts_panel_xpath
+//h5[contains(@class,'MuiTypography-h5')] <br />
+//h5[text()='Scouts Panel'] <br />
 //div[@id='__next'] //descendant::h5
 
-## <input aria-invalid="false" id="login" name="login" type="text" class="MuiInputBase-input MuiInput-input" value="">
-//*[@id='login']
-//input[@name='login']
-//*[@type='text' and @id='lo
-gin']
+## login_field_xpath
+//*[@id='login'] <br />
+//input[@name='login'] <br />
+//*[@type='text' and @id='login'] <br />
 //div[@id='__next'] //descendant::input[@id='login']
 
-## <input aria-invalid="false" id="password" name="password" type="password" class="MuiInputBase-input MuiInput-input" value="">
-//*[@id='password']
-//input[@name='password']
+## password_field_xpath
+//*[@id='password'] <br />
+//input[@name='password'] <br />
 //*[@type='password']
 
-## <a class="MuiTypography-root MuiLink-root MuiLink-underlineHover jss29 MuiTypography-colorPrimary" tabindex="-1">Remind password</a>
-//*[@id='__next']/form/div/div[1]/a
-//*[text()="Remind password"]
-//*[@id='__next']//*[text()='Remind password']
+## button_remind_xpath
+//*[@id='__next']/form/div/div[1]/a <br />
+//*[text()="Remind password"] <br />
+//*[@id='__next']//*[text()='Remind password'] <br />
 //*[@id='__next']/descendant::a[contains(@class,'MuiLink-root')]
 
-## <div class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiInputBase-input MuiInput-input" tabindex="0" role="button" aria-haspopup="listbox">English</div>
-//*[@aria-haspopup='listbox']
-//*[@id='__next']/form/div/div[2]/div/div
-//*[contains(@class,'MuiInputBase-root')]/*[@aria-haspopup='listbox']
-//*[@type='submit']//preceding::div[contains(@class,'MuiSelect-select')]
+## button_language_selector_xpath
+//*[@aria-haspopup='listbox'] <br />
+//*[@id='__next']/form/div/div[2]/div/div <br />
+//*[contains(@class,'MuiInputBase-root')]/*[@aria-haspopup='listbox'] <br />
+//*[@type='submit']//preceding::div[contains(@class,'MuiSelect-select')] <br />
 //*[@id="__next"]/descendant::*[contains(@class,'MuiSelect-select')]
 
-## <button class="MuiButtonBase-root MuiButton-root MuiButton-contained jss30 MuiButton-containedPrimary" tabindex="0" type="submit"><span class="MuiButton-label">Sign in</span><span class="MuiTouchRipple-root"></span></button>
-//*[@type='submit']
-//*[contains(@class,'MuiButton-root')]
-//*[@type='submit' and contains(@class,'MuiButton-root')]
+## button_sign_in_xpath
+//*[@type='submit'] <br />
+//*[contains(@class,'MuiButton-root')] <br />
+//*[@type='submit' and contains(@class,'MuiButton-root')] <br />
 //*[@id="__next"]/descendant::*[contains(@class,'MuiButton-root')]
-
-
-
-
-
-
-
-
-
