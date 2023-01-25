@@ -12,6 +12,9 @@ class Dashboard(BasePage):
     dev_team_contact_link_xpath = "//a[contains(@href, 'T3X4CAKNU')]"
     main_logo_xpath = "//*[@title='Logo Scouts Panel']"
     sign_out_button_xpath = "//*[text()='Sign out']//ancestor::div[@role='button']"
+    john_snow_link_xpath = "//*[contains(@href, '63d05870071e730cb08ff867')]"
+    a_a_button_xpath = "//*[contains(@href, '63d04c79071e730cb08ff81a')]/button"
+    rrr_eee_button_title_xpath = "//span[starts-with(text(), 'rrr')]"
 
 
 
