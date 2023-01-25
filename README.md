@@ -11,7 +11,7 @@ communicate with other like-minded people,
 challenge myself, of course, and get the opportunity to grow in IT. 
 I'm ready to do my best during the challenge, coz no pain - no gain 	:blush:
 
-# TASK 2: selectors 
+# TASK 2: selectors. 
 
 ## scouts_panel_title_xpath
 //h5[contains(@class,'MuiTypography-h5')] <br/>
