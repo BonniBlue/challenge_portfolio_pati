@@ -35,14 +35,14 @@ I'm ready to do my best during the challenge, coz no pain - no gain 	:blush:
 //*[@id='__next']//*[text()='Remind password'] <br/>
 //*[@id='__next']/descendant::a[contains(@class,'MuiLink-root')]
 
-## language_select_path
+## language_select_xpath
 //*[@aria-haspopup='listbox']
 //*[@id='__next']/form/div/div[2]/div/div <br/>
 //*[contains(@class,'MuiInputBase-root')]/*[@aria-haspopup='listbox'] <br/>
 //*[@type='submit']//preceding::div[contains(@class,'MuiSelect-select')] <br/>
 //*[@id="__next"]/descendant::*[contains(@class,'MuiSelect-select')]
 
-## sign_in_button_path
+## sign_in_button_xpath
 //*[@type='submit'] <br/>
 //*[contains(@class,'MuiButton-root')] <br/>
 //*[@type='submit' and contains(@class,'MuiButton-root')] <br/>
